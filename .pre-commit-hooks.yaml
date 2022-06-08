@@ -1,0 +1,7 @@
+- id: swift-format
+  name: swift-format
+  description: "Check swift files for formating issues with swift-format"
+  entry: hooks/format.sh
+  language: script
+  require_serial: true
+  types: [swift]
